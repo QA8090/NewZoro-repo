@@ -1,33 +1,11 @@
 {
-    "name": "Login Page",
     "webElements": [
-        {
-            "elementName": "loginField",
-            "selectorValue": "//div[contains(@class,'oxd-form-row')]//input[contains(@name,'username')]"
-        },
-        {
-            "elementName": "passwordField",
-            "selectorValue": "//div[contains(@class,'oxd-form-row')]//input[contains(@name,'password')]"
-        },
-        {
-            "elementName": "adminTab",
-            "selectorValue": "//div[@class='oxd-sidepanel-body']//li[1]"
-        },
-        {
-            "elementName": "invalidLoginMessage",
-            "selectorValue": "//div[@class='oxd-alert oxd-alert--error']//p[1]"
-        },
-        {
-            "elementName": "languageSelection",
-            "selectorValue": "//div[contains(@class,'oxd-form-row')]//div[contains(.,'Language')]//div[contains(@class,'oxd-select-text--after')]"
-        },
-        {
-            "elementName": "selectLanguage",
-            "selectorValue": "//div[contains(@class,'oxd-form-row')]//div[contains(.,'Language')]//div[contains(@class,'oxd-select-text oxd-select-text--active')]"
-        },
-        {
-            "elementName": "submitSaveLang",
-            "selectorValue": "//button[contains(@type,'submit')]"
-        }
+      { "elementName": "usernameField", "selectorValue": "//input[@placeholder='Email']" },
+      { "elementName": "passwordField", "selectorValue": "//input[@placeholder='Password']" },
+      { "elementName": "loginBtn", "selectorValue": "//div[@class='grid grid-flow-row relative justify-start font-roboto h-full hidden md:grid justify-center']//button[@data-e2e='log-in']" },
+      { "elementName": "signInBtn", "selectorValue": "//button[normalize-space()='Sign in']" },
+      { "elementName": "errorMessage", "selectorValue": "//span[@data-e2e='error_username']" },
+      { "elementName": "tost", "selectorValue": "//div[normalize-space()='Welcome Test Tet']" }
     ]
-}
+  }
+  
